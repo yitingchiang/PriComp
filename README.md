@@ -1,5 +1,5 @@
 # PriComp
-A secure multi-party computation platform. This package has being tested under ubuntu 18.04 and debian 10.
+A secure multi-party computation platform. PriComp has being tested under ubuntu 18.04 and debian 10. Pricomp should be able to run under any unix-like OS with cmake, c++ compiler, and gmp library.
 ## Compile PriComp
  1. Install cmake: ```apt install cmake```
  2. Install c++ compiler: ```apt install g++```
