@@ -22,7 +22,7 @@ A secure multi-party computation platform. PriComp has being tested under ubuntu
  2. Go to directory bin. You can find four execuable files, arith_demo, f_cond_demo, sp_demo, and stat_demo. Taking f_cond_demo as the example.
    - In S1 (Alice): ```./f_cond_demo ../conf/example.cfg 1.0 1```
    - In S2 (Bob): ```./f_cond_demo ../conf/example.cfg 3.0 2```
-   - 
+
  To see the usage of these examples, run the executable files without giving any parameter.
 ## Compile commodity server
 After successfully making PriComp, you can change directory to commodity and run cmake and make to build the programs of the commodity server and the programs that can generate online (necessary for the commodity server) and offline random bits.
