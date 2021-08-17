@@ -16,4 +16,5 @@ After successfully making PriComp, you can change directory to ML and run cmake 
 ## Generate documents
 You can generate PriComp API documents using doxygen:
   1. Install doxygen: ```apt install doxygen```
-  2. Generate the document:```doxygen pricomp_doxygen.cfg```
+  2. Generate PriComp documents:```doxygen pricomp_doxygen.cfg```
+A directory docs will be created. Open docs/index.html to read PriComp API documents.
