@@ -13,4 +13,7 @@ A secure multi-party computation platform. PriComp has being tested under ubuntu
 After successfully making PriComp, you can change directory to commodity and run cmake and make to build the programs of the commodity server and the programs that can generate online (necessary for the commodity server) and offline random bits.
 ## Compile ML examples
 After successfully making PriComp, you can change directory to ML and run cmake and make to build the programs which can conduct secure machine learning protocols.
-    
+## Generate documents
+You can generate PriComp API documents using doxygen:
+  1. Install doxygen: ```apt install doxygen```
+  2. Generate the document:```doxygen pricomp_doxygen.cfg```
