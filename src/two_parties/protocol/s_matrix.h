@@ -1,3 +1,6 @@
+/**
+ This header file defines secure matrix operations. 
+ */
 #include "../cSFloat.h"
 #ifndef S_MATRIX_H
 #define S_MATRIX_H

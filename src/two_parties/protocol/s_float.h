@@ -1,5 +1,4 @@
 /**
- @file
  This header file defines most of the operations on secure floating-point variables (SFloat). Note that functions with the parameter client_type must be performed by both parties. In this case, the SFloat parameter are shared; Functions without the client_type parameter can be performed by one party. In this case, the SFloat is not shared.
 */
 
@@ -10,7 +9,6 @@
 #include "../cSFloat.h"
 #include "s_fixnum.h"
 #include "../../util.h"
-//#include "../../debug.h"
 #include "../tables.h"
 
 /**

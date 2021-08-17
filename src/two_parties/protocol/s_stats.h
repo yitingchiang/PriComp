@@ -1,4 +1,6 @@
-
+/**
+ This header file defines protocols which can compute sample mean, variance, and median. 
+ */
 #include "../cSFloat.h"
 #ifndef S_STATS_H
 #define S_STATS_H
