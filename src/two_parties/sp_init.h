@@ -1,3 +1,6 @@
+/**
+ This header file defines procedures to initialize and to end PriComp. The elemental procedure of PriComp, scalar product, is also defined here.
+ */
 #include <gmp.h>
 #ifndef SP_INIT
 #define SP_INIT
@@ -40,5 +43,4 @@ int  SP_init(char* file,int& client_type);
 int  scalar_product(mpz_t *px, int client_type, int dim, mpz_t dom,mpz_t result);
 
 int multi_scalar_product(mpz_t *px, int client_type, int nSC, int* dim, mpz_t dom,mpz_t* result);
-//void sync_party(int client_type);
 #endif

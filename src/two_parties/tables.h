@@ -1,5 +1,5 @@
 /**
- This file defines some constant tables and the functions to create and free tables.
+ This file defines some constant tables and the functions to create and free tables. Data structure to implement a scalar-product protocol that leaks about half amount of information in the input data. Refer to "W. Du and Z. Zhan. A practical approach to solve secure multi-party computation" and "Yi-Ting Chiang, Da-Wei Wang, Churn-Jung Liau, and Tsan-sheng Hsu." for more information.
  */
 #ifndef _TABLES
 #define _TABLES

@@ -1,3 +1,6 @@
+/**
+ cSFloat.h defines the data structure of SFloat, which is a component-wisedly shared floating-point data type. Specifically, the sign bit, exponent, and mantissa are additively shared between two parties. Some methods are also defined.
+ */
 #ifndef SFLOAT_H
 #define SFLOAT_H
 
