@@ -1,4 +1,6 @@
-//#include <gmp.h>
+/**
+ Define functions to establish and end a connection. In addition, functions to send and receive data are also defined here.
+ */
 #include "smc.h"
 
 #ifndef COMMUNICATE
@@ -73,8 +75,4 @@ int get_value(ulong128* v, int socket);
  */
 int send_value(ulong128* v,int socket);
 
-/*
-int readVec(char* vec,size_t size);
-int writeVec(char* vec,size_t size);
-*/
 #endif
