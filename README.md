@@ -8,7 +8,7 @@ A secure multi-party computation platform. PriComp has being tested under ubuntu
     - To show debugging messages, set -DDEBUG=Y
     - To evaluate the performance. set -DEVAL_TIME=Y
  5. Run make: ```make```
- 6. 
+
  If things doest not go wrong, two directories, bin and lib, will be created. In bin, you can try some secure protocols. sp_demo performs scalar product, stat_demo computes some statistics, arith_demo performs the four arithmetic operationsm and f_condition_demo demonstrate how to write secure conditional structure in Pricomp.
 ## How to run the examples
  Assume you have two servers S1 and S2 that have successfully compiled PriComp and want to play the role of Alice and Bob respectively. S1's IP address is 192.168.1.1, and S2's IP address is 192.168.1.2. 
