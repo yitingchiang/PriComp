@@ -28,7 +28,7 @@ A secure multi-party computation platform. PriComp has being tested under ubuntu
 After successfully making PriComp, you can change directory to commodity and run cmake and make to build the programs of the commodity server and the programs that can generate online (necessary for the commodity server) and offline random bits.
 ## Compile ML examples
 After successfully making PriComp, you can change directory to ML and run cmake and make to build the programs which can conduct secure machine learning protocols.
-## Implement your own protocol
+## Implement your own protocols
 Before performing any secure operations PriComp provides, call SP_init first. When your protocol ends, call SP_clear. Examples can be found in the cpp files we provides in the root dircttory of priComp.
 
 Currently PriComp only supports secure two-party protocols. When you run prototols build using PriComp, you have to run Alice before Bob.
