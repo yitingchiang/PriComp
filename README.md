@@ -33,8 +33,8 @@ Before performing any secure operations PriComp provides, call SP_init first. Wh
 
 Currently PriComp only supports secure two-party computations. When you run prototols built using PriComp, you have to run Alice before Bob.
 ## Generate documents
-You can generate PriComp API documents using doxygen:
+You can generate PriComp API documents using doxygen. After you clone Pricomp in your computer:
   1. Install doxygen: ```apt install doxygen```
-  2. Generate PriComp documents:```doxygen pricomp_doxygen.cfg```
+  2. Go to the root directory of PriComp and generate PriComp documents:```doxygen pricomp_doxygen.cfg```
   
 A directory docs will be created. Open docs/index.html to read PriComp API documents.
