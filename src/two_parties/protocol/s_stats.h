@@ -49,8 +49,8 @@ SFloat f_variance(SFloat *operands, int dim, int client_type);
 /** 
   Compute the median of the values in two SFloat arrays.
   Party A and Party B holds the two SFloat array. NOTICE: This function requires that data1 and data2 are respectively sorted in ascendant order.
-  @param data1: Party A's data. Party B has to give an Zero array of langth dim1 
-  @param data2: Party B's data. Party A has to give an Zero array of langth dim2
+  @param data1: Party A's data. Party B has to give an Zero array of length dim1 
+  @param data2: Party B's data. Party A has to give an Zero array of length dim2
   @param dim1: The length of array in Party A
   @param dim2: The length of array in Party B
   @return The median of all the elements in the two arrays.
