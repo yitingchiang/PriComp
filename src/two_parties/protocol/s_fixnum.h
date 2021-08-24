@@ -1,5 +1,5 @@
 /**
- s_fixnum.h defines secure functions for two-party secute integer computation. The input and output are additively shared and should be in a given domain. For example, to compute  5 times -3 under domain 7, the two inputs should be 5 and 4 (i.e. 7 + -3). Using negative values results in wrong answer.
+ s_fixnum.h defines secure functions for two-party secure integer computation. The input and output are additively shared and should be in a given domain. For example, to compute  5 times -3 under domain 7, the two inputs should be 5 and 4 (i.e. 7 + -3). Using negative values results in wrong answer.
  */
 
 #ifndef _SFIXNUM_H_
