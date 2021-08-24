@@ -23,7 +23,7 @@ void usage(const char* fname)
 	fprintf(stderr,"\t\t1: subtraction\n");
 	fprintf(stderr,"\t\t2: multiplication\n");
 	fprintf(stderr,"\t\t3: division\n");
-	fprintf(stderr,"\t<value> is the private inout of the party.\n");
+	fprintf(stderr,"\t<value> is the private input of the party.\n");
 	fprintf(stderr,"\t<round> is how many times the specified operation are performed. This sis for performance evaluation.\n");
 	fprintf(stderr,"\t<client_type>: 1 (Alice) or 2 (Bob).\n\n");
 	fprintf(stderr,"Notice that ALICE HAVE TO RUN BEFORE BOB.\n");

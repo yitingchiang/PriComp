@@ -16,7 +16,7 @@ void usage(const char* fname)
   printf("To make the output easy to read, the result is v1 if the condition is true, otherwise v2.\n");
 	fprintf(stderr,"usage: %s <conf_file> <value> <client_type>\n", fname);
 	fprintf(stderr,"\t<conf_file> is the configuration file of Pricomp. Check the cfg files in the conf directory.");
-	fprintf(stderr,"\t<value> is the private inout of the party.\n");
+	fprintf(stderr,"\t<value> is the private input of the party.\n");
 	fprintf(stderr,"\t<client_type>: 1 (Alice) or 2 (Bob).\n\n");
 	fprintf(stderr,"Notice that ALICE HAVE TO RUN BEFORE BOB.\n");
 }
