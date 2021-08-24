@@ -99,12 +99,12 @@ class SFloat
      */
     void negate();
     /**
-     * Write out a floating-pount value.
+     * Write out a floating-point value.
      * @param fp A c-style file pointer to write the data
      */
     void write(FILE* fp);
     /**
-     * Read a floating-pount value and set.
+     * Read a floating-point value and set.
      * @param fp A c-style file pointer to read data from
      */
     void read(FILE* fp);
