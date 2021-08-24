@@ -24,7 +24,7 @@ SFloat float2SFloat(double f);
  */
 double sFloat2float(SFloat f);
 /**
- Perfoem secure addition on two SFloat variables.
+ Perform secure addition on two SFloat variables.
  @param f1 a shared secure floating-point variable
  @param f2 a shared secure floating-point variable
  @param client_type The type of this party:
@@ -43,7 +43,7 @@ SFloat f_plus(SFloat f1, SFloat f2, int client_type);
  */
 SFloat fpShare(double v, int client_type);
 /**
- Perfoem secure subtraction on two SFloat variables.
+ Perform secure subtraction on two SFloat variables.
  @param f1 a shared secure floating-point variable
  @param f2 a shared secure floating-point variable
  @param client_type The type of this party:
@@ -53,7 +53,7 @@ SFloat fpShare(double v, int client_type);
  */
 SFloat f_minus(SFloat f1, SFloat f2, int client_type);
 /**
- Perfoem secure multiplication on two SFloat variables.
+ Perform secure multiplication on two SFloat variables.
  @param f1 a shared secure floating-point variable
  @param f2 a shared secure floating-point variable
  @param client_type The type of this party:
@@ -63,7 +63,7 @@ SFloat f_minus(SFloat f1, SFloat f2, int client_type);
  */
 SFloat f_product(SFloat f1, SFloat f2, int client_type);
 /**
- Perfoem secure division on two SFloat variables.
+ Perform secure division on two SFloat variables.
  @param f1 a shared secure floating-point variable
  @param f2 a shared secure floating-point variable
  @param client_type The type of this party:
