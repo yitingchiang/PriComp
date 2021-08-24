@@ -1,6 +1,5 @@
 /**
- This file provides function to do time performance evalution.
- Set EVAL_TIME to YES (cmake -DEVAL_TIME=YES) to enable these functions. 
+ This file provides function to do time performance evaluation.
  */
 #ifndef TIME_EVAL
 #define TIME_EVAL
@@ -22,7 +21,7 @@ void time_set(struct timeval*, int t);
 void time_print(struct timeval* t, int startIDX,int endIDX);
 
 /**
- Compute the time between t1 and t2 (t1 < t2). The result is put in the first parameter. The time is measure in miliseconds 
+ Compute the time between t1 and t2 (t1 < t2). The result is put in the first parameter. The time is measure in milliseconds 
  @param result The result.
  @param t2 The end time
  @param t1 The start time

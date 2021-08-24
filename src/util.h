@@ -1,3 +1,6 @@
+/**
+ Define the data structure used to pass arguments and to perform the scalar-product protocol in PriComp. Vector operations that are frequently used are also defined here.
+ */
 #include <gmp.h>
 #include "smc.h"
 
@@ -16,14 +19,14 @@ typedef struct
   int64_t Exponent; /**< The number of bits of the sign bit in secure float (SFloat)*/ 
   int64_t Mantissa; /**< The number of bits of the sign bit in secure float (SFloat)*/ 
   int64_t Dimension;/**< The number of bits of the sign bit in secure float (SFloat)*/ 
-  int64_t Domain;/**< The domain that the ooperations on the above three components in SFloat are performed on.*/ 
+  int64_t Domain;/**< The domain that the operations on the above three components in SFloat are performed on.*/ 
   int adderIDX; /**< Which adder is used. See the setting file.*/
   bool Offline_Commodity; /**< Whether the three-party (one commodity server) scalar product protocol use random bits generated offline or not.*/
 } Protocol_ARG;
 
 /**
  This structure is for the three-party (one commodity server) scalar product protocol.
- The suructure is for conducting multiple times of scalar products by calling the function one time, so some variables, for example ra and rb, are arrays.
+ The structure is for conducting multiple times of scalar products by calling the function one time, so some variables, for example ra and rb, are arrays.
  */
 typedef struct
 {
