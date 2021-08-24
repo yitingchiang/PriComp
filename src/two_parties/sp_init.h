@@ -13,7 +13,7 @@ extern int SP_TCP_c_socket;
  */
 extern int SP_p_socket;
 /**
- Defined in lcient.cpp. This variable is to count how many times the scalar product protocol is performed.
+ Defined in client.cpp. This variable is to count how many times the scalar product protocol is performed.
  This variable is for debugging only.
  */
 extern long long int t_count;
