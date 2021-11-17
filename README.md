@@ -19,9 +19,9 @@ A secure multi-party computation platform. PriComp has being tested under ubuntu
    - Set IP in line 17. In this case, it should be: ```$host0, host1, host2 = (local_run) ? ["localhost", "localhost", "localhost"] : ["127.0.0.1", "192.168.1.1", "192.168.1.2"]```
    - Change the port numbers 30002 and 30003 to other port number if it's necessary.
    - Save the file (assume "example.cfg")
- 2. Go to directory bin. You can find four execuable files, arith_demo, f_cond_demo, sp_demo, and stat_demo. Taking f_cond_demo as the example.
-   - In S1 (Alice): ```./f_cond_demo ../conf/example.cfg 1.0 1```
-   - In S2 (Bob): ```./f_cond_demo ../conf/example.cfg 3.0 2```
+ 2. Go to directory bin. You can find some execuable files. For example, arith_demo shows how to perform arithmetic operations. f_cond_demo shows how to securely compare two values. You can run these examples. Taking f_cond_demo as the example. If there are two parties S1 (Alice) and S2 (Bob). The two parties can execure the following command:
+   - In S1: ```./f_cond_demo ../conf/example.cfg 1.0 1```
+   - In S2: ```./f_cond_demo ../conf/example.cfg 3.0 2```
 
  To see the usage of these examples, run the executable files without giving any parameter.
 ## Compile commodity server
