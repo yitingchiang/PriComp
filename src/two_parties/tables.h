@@ -1,10 +1,9 @@
 /**
- This file defines some constant tables and the functions to create and free tables. Data structure to implement a scalar-product protocol that leaks about half amount of information in the input data. Refer to "W. Du and Z. Zhan. A practical approach to solve secure multi-party computation" and "Yi-Ting Chiang, Da-Wei Wang, Churn-Jung Liau, and Tsan-sheng Hsu." for more information.
+ This file defines some constant tables and the functions to create and free tables.
  */
 #ifndef _TABLES
 #define _TABLES
 #include <gmp.h>
-#include "cSFloat.h"
 #include "../smc.h"
 
 /**
